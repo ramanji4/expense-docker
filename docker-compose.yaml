@@ -20,7 +20,7 @@ services:
     networks:
     - expense
   frontend:
-    image: ramanji4/frontend:v1
+    image: ramanji4/rfrontend:v1
     container_name: frontend
     ports:
     - 80:80
